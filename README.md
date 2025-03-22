@@ -1,14 +1,52 @@
-# React + Vite
+# Todo App
 
-# TODO-BASIC-APP
+[Live Demo](https://todo-level1.netlify.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a simple **Todo App** built using modern web technologies. It allows users to add, delete, and manage their tasks efficiently. The app follows **CRUD operations** (Create, Read, Update, Delete) and uses **MongoDB** as the database.
 
-Currently, two official plugins are available:
+## Features
+- Add new tasks
+- Mark tasks as completed
+- Edit tasks
+- Delete tasks
+- Responsive design
+- Persistent data storage with MongoDB
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend:** HTML, CSS, JavaScript (React or Vanilla JS)
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Hosting:** Netlify (Frontend), Render (Backend)
 
-## Expanding the ESLint configuration
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/suryanag0999/todo-level1-frontend.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd todo-level1-frontend
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Run the development server:
+   ```sh
+   npm start
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Deployment
+To deploy updates to Netlify:
+```sh
+npm run build
+netlify deploy
+```
+
+## Contributing
+Feel free to fork the repo and submit pull requests.
+
+## License
+MIT License
+
