@@ -17,7 +17,7 @@ This is a simple **Todo App** built using modern web technologies. It allows use
 - **Frontend:** HTML, CSS, JavaScript (React or Vanilla JS)
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
-- **Hosting:** Netlify (Frontend), Render(Backend)
+- **Hosting:** Netlify (Frontend),Render(Backend)
 
 ## Installation
 1. Clone the repository:
